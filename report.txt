@@ -1,0 +1,59 @@
+Assignment of 1897051 
+report on uploading cv to github
+
+
+1) Command : $ git clone https://github.com/palanchi22/mad314-CV--1897051-.git
+   Intent  : cloning github repositary to my pc
+   Result  : Cloning into 'mad314-CV--1897051-'...
+             warning: You appear to have cloned an empty repository.
+
+2) Command : $ git add instructions.txt
+   Intent  : adding a file to git
+   Result  : warning: LF will be replaced by CRLF in instructions.txt.
+             The file will have its original line endings in your working directory.
+
+3) Command : $ git commit -m "uploaded instructions file"
+   Intent  : to commit the present file
+   Result  : [master 4a37ebb] uploaded instructions file
+             1 file changed, 55 insertions(+)
+             create mode 100644 instructions.txt
+
+4) Command : $ git push -u origin master
+   Intent  : to push the file to repository 
+   Result  : fatal: HttpRequestException encountered.
+             An error occurred while sending the request.
+             Username for 'https://github.com': palanchi22
+             Counting objects: 3, done.
+             Delta compression using up to 4 threads.
+             Compressing objects: 100% (3/3), done.
+             Writing objects: 100% (3/3), 1.33 KiB | 1.33 MiB/s, done.
+             Total 3 (delta 0), reused 0 (delta 0)
+             To https://github.com/palanchi22/mad314-CV--1897051-.git
+             127bc21..4a37ebb  master -> master
+             Branch master set up to track remote branch master from origin.
+
+5) Command : git add shiva.pdf
+   Intent  : adding my cv to git
+
+6) Command : $ git commit -m "created cv"
+   Intent  : commiting present file
+   Result  : [master 120b071] created cv
+             1 files changed, 1 insertions(+)
+             create mode 100644 shiva.pdf
+
+7) Command : $ git push
+   Intent  : uploading present file
+   Result  : fatal: HttpRequestException encountered.
+             An error occurred while sending the request.
+             Username for 'https://github.com': palanchi22
+             Counting objects: 4, done.
+             Delta compression using up to 4 threads.
+             Compressing objects: 100% (3/3), done.
+             Writing objects: 100% (4/4), 37.85 KiB | 18.92 MiB/s, done.
+             Total 4 (delta 0), reused 0 (delta 0)
+             To https://github.com/palanchi22/mad314-CV--1897051-.git
+             4a37ebb..120b071  master -> master
+
+   
+
+
