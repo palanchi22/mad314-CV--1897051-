@@ -1,0 +1,55 @@
+IN CLASS CV ASSIGNMENT
+
+Due date: March 9th at 23:59:59
+
+Info:
+This assignment is worth 15% of your final grade. The objective is to test your basic knowledge of git, git bash and GitHub as well as using tools to make a CV.
+
+Grading:
+5% : how you use git, and the quality of your report.txt file (see instructions below)
+
+10% : the quality of the created CV.
+
+Instructions:
+1. Create a repo on GitHub with the name MAD314-CV-{yourId}
+
+2. Clone it to your computer using the `git clone` command
+
+3. Copy the instructions.txt (this file) in the directory.
+
+4. Create an empty file called report.txt in the directory.
+
+5. Push these files to your repo. (use git add, git commit and git push)
+
+6. In the report.txt file, note all of the git commands you use. Explain why you use them, what happens when you use them, and why you are using them.
+
+For example, one entry could look like this...
+
+"git clone {url}: I used this command to clone my repo to my computer. It created a folder containing the files from my repo. I used to make a link between my GitHub repo and my local repo"
+
+You should have entries for at least the following commands: add, commit, push.
+
+7. Create your CV! You can use Word or the free tool https://novoresume.com/
+
+Your CV should contain the following information
+	1. your name
+	2. your email address
+	3. your current location (city, province). Don't include your home address. No one needs that.
+	4. your phone number
+	5. your GitHub account page (www.github.com/your_account)
+	6. Information about your education. Only include college+ level
+	7. Information about your technical skills. (git, programming languages, software tools)
+	8. Work Experience
+		8.1 Company, your title
+		8.2 Start and End date (month/year format is enough)
+		8.3 YOUR ACCOMPLISHMENTS!!!!!!!!!
+			USE ACTION VERBS! 
+			Examples: 
+				Developed an algorithm to sort client files
+				Managed a team of 5 people
+	9. Personal Projects
+	10. Personal Interests
+
+8. Add your CV to git
+
+9. MAKE IT MAX 1 PAGE!!!
